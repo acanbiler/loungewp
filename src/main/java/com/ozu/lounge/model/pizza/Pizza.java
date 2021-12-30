@@ -39,7 +39,7 @@ public class Pizza {
 
         public PizzaBuilder pepperoni(Boolean value) {
             pepperoni = value;
-            this.cost += 20;
+            this.cost += 15;
             return this;
         }
 

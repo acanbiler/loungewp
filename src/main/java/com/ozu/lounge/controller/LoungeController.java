@@ -39,7 +39,7 @@ public class LoungeController {
         return loungeService.prepareCoffee(coffeeRequest);
     }
 
-    @PostMapping(value = "/coffee")
+    @PostMapping(value = "/ice-cream")
     public Double prepareIceCream(@RequestBody IceCreamRequest iceCreamRequest) {
         return loungeService.prepareIceCream(iceCreamRequest);
     }
